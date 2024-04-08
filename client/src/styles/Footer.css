@@ -1,0 +1,44 @@
+.footer-main{
+    background-color: #333;
+    color:white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  .footer Link{
+    display: inline;
+  }
+  .footer p{
+    padding: 0;
+    margin: 0;
+  }
+  .social-icons a {
+    margin-right: 10px;
+    color: gold;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  .all-rights {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-section {
+      flex-basis: 100%;
+    }
+  }
+  

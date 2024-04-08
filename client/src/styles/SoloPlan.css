@@ -1,0 +1,115 @@
+.plan {
+    margin-top: 5%;
+  }
+  .plan-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff5a5f;
+    width: 90%;
+    border: none;
+    border-radius: 0 30px 125px 0;
+    margin: 5% 0;
+    padding: 2%;
+    flex-wrap: wrap;
+  }
+  .plan h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-content p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .package-body p{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .line{
+    text-decoration: line-through;
+    color:#c4c4c4
+  }
+
+  
+  .plan .package {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+  }
+  
+  .package-detail {
+    background-color: #f5c043;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* cursor: pointer; */
+  }
+  
+  .package-detail:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  .package-head {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .package-body {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .button-package{
+    margin-top:10px;
+  }
+  .button-package button{
+    position:relative;
+    bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem 1.6rem;
+    margin: 0 0.5rem;
+    border: 1px solid  #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+  color: #fff;
+  }
+  .button-package button:hover{
+    /* background-color: transparent; */
+  /* color: #ffb30f; */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .plan {
+      margin-top: 70px;
+    }
+  
+    .plan h1 {
+      font-size: 2.5rem;
+    }
+  
+    .plan .package {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+      margin: 20px;
+    }
+  }
+  

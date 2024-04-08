@@ -1,0 +1,455 @@
+body{
+    background-color: #FFF8D6 !important;
+}
+.grid-background {
+    background-color: #000;
+    background-image: linear-gradient(to right, #333 1px, transparent 1px),
+      linear-gradient(to bottom, #333 1px, transparent 1px);
+    background-size: 20px 20px;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+  }
+
+  .header-book h1 {
+    color: #f0f0f0;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 2rem; */
+  }
+
+  .body-book p{
+    display: block;
+    width: 100%;
+    color: #ffb30f;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .header-book h2 {
+    color: #f0f0f0;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 2rem; */
+  }
+  .button-book{
+    margin-bottom: 40px;
+    padding: 0 30px;
+  }
+  .button-book button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem 1.6rem;
+    margin: 0 0.5rem;
+    border: 1px solid  #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+  color: #fff;
+  }
+  .button-book button:hover{
+    /* background-color: transparent; */
+  color: #ffb30f;
+  }
+  
+.plans-main{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff5a5f;
+    width: 90%;
+    border:  none;
+    border-radius:0 10% 10% 0;
+    margin: 5% 0 ;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.plans{
+
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto;
+    padding: 2%; */
+}
+/* .plans-box1{
+    width: auto;
+}
+
+.plans-box2{
+    width: 100%;
+} */
+.plans h1{
+    color: aliceblue;
+    font-size: 6.5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    
+    /* margin-bottom: 2rem; */
+}
+.plans h2{
+    color: rgb(80, 80, 80);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 2rem; */
+}
+.plans h3{
+    color: rgb(48, 48, 48);
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    /* margin-bottom: 2rem; */
+}
+.plans-main button{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center; 
+    /* width: 20vh; */
+    align-items: center;
+     background-color: #f0f0f0;
+    color: #ff5a5f;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 7vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem
+}
+.plans-main button:hover{
+   
+    background-color: #f0f0f0;
+    color: #000;
+    
+}
+
+.like{
+    background-color: #f5c043;
+    width: 90%;
+    border:  none;
+    border-radius:10px;
+    margin: 5% 5% 0 ;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.like .like-head{
+    position: relative;
+    background-color: #ff5a5f;
+    bottom: 50px;
+    width: 60%;
+    border-radius: 10px;
+}
+.like-head span{
+    font-size: 4.5rem;
+    padding: 0 15px;
+    font-weight: 500;
+    width: 100%;
+}
+.like p{
+    
+    width: 80%;
+    color: rgb(48, 48, 48);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.like-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+
+}
+
+.like-img-box{
+    display: flex;
+    margin: 10px;
+    width: 180px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* flex-direction: column; */
+}
+.like-img img{
+    /* width: 50px; */
+    height: 120px;
+}
+.like .item-list{
+    font-size: 2rem;
+    margin: 10px 80px;
+}
+
+.review{
+    /* margin: 0  80px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 70vh;
+    background-color: #7f03eb;
+}
+
+
+.review h3{
+    
+        color: rgb(255, 255, 255);
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0 40px;
+        
+        text-align: center;
+        border-bottom: 5px solid gold;
+        border-radius: 5px;
+        display: inline-block; /* Add this line */
+    
+    
+    
+
+}
+
+
+
+  
+.review-body{
+    display: block;
+    max-width: 90%;
+}
+.review-l1{
+    position:  relative;
+    display: block;
+    float: left;
+    top:   60px;
+    left: 38%;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+
+}
+.review-l2{
+    position:  relative;
+    display: block;
+    float: left;
+    top:   430px;
+    /* left: 10%; */
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+
+}
+.review-r{
+    position:  relative;
+    display: block;
+    float: right;
+    top:   250px;
+    right: 10%;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .plans-main {
+        width: 100vw;
+        padding: 5%;
+    }
+    .plans{
+
+        flex-direction: column;
+        /* margin: auto;
+        padding: 2%; */
+    }
+    .plans .plans-box2{
+        width:90%;
+    }
+
+    .plans .plans-box2 img{
+        width: 100%;
+    }
+    .plans h1 {
+        font-size: 4.5rem;
+    }
+
+    .plans h2 {
+        font-size: 2.5rem;
+    }
+
+    .plans h3 {
+        font-size: 3.5rem;
+    }
+
+    .plans-main button {
+        width: 80%;
+        height: 5vh;
+        font-size: 2rem;
+    }
+
+    .like .like-head{
+        position: relative;
+        background-color: #ff5a5f;
+        bottom: 20px;
+        width: 70%;
+        border-radius: 10px;
+    }
+    .like-head span{
+        font-size: 1.5rem;
+        padding: 0 15px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .like p{
+    
+        width: 80%;
+        color: rgb(48, 48, 48);
+        font-size: 1.3rem;
+        /* font-weight: 500; */
+        margin: 0;
+        padding: 0 10px;
+    }
+    .like .item-list{
+        font-size: 1.1rem;
+        width: 100%;
+        margin: 0 0;
+        /* margin: 10px 80px; */
+    }
+
+
+
+    .review{
+        /* margin: 0  80px; */
+        
+        margin-bottom: 10px;
+        height: 100vh;
+        background-color: #7f03eb;
+    }
+   
+    .review h3{
+        
+            color: rgb(255, 255, 255);
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 0;
+            /* padding: 0 0 30px; */
+            text-align: center;
+            border-bottom: 5px solid gold;
+            border-radius: 5px;
+            display: inline-block; /* Add this line */
+        
+        
+        
+    
+    }
+    
+    
+    
+      
+    .review-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .review-l1{
+        position:  relative;
+        /* display: block; */
+        float: left;
+        top: 15px;
+        left: 10%; 
+        display: flex;
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+    
+    }
+    .review-l2{
+         position:  relative;
+        display: block;
+        float: left;
+        top:   70px; 
+        left: 10%; 
+        display: flex;
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+    
+    }
+    .review-r{
+        /* position:  relative; */
+        /* display: block; */
+        /* float: right; */
+        top:   38px;
+        right: -30%; 
+        display: flex;
+        width: 300px;
+        height: 160px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+    
+    }
+
+
+      .header-book h1 {
+    color: #f0f0f0;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 2rem; */
+  }
+
+  .body-book p{
+    display: block;
+    width: 100%;
+    color: #ffb30f;
+    font-size: 1rem;
+    /* font-weight: 600; */
+  }
+
+  .header-book h2 {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 2rem; */
+  }
+}

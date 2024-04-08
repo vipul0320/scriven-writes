@@ -1,0 +1,76 @@
+.onboard {
+    max-width: 600px;
+    margin: 85px auto 30px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .onboard label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .plan-contentt {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    border-radius:25px;
+    text-align: center;
+   margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .plan-contentt h1{
+    font-size: 2rem;
+    color: #ff5a5f;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .plan-contentt p{
+    font-size: 1.5rem;
+    color: #ffb30f;
+    font-weight: 500;
+  }
+
+
+  .onboard button{
+    background:#fca13f;
+    color:rgb(0, 0, 0);
+    border:none;
+    padding:10px 15px;
+    
+    font-size:14px;
+    cursor:pointer;
+    
+  }
+
+  .onboard button:hover{
+    background-color: #000;
+    color: #fca13f;
+  }
+  
+  

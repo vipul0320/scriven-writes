@@ -33,7 +33,7 @@ function OnboardingSolo() {
     formData.append('file', file);
 
     try {
-      await axios.post("/api/v1/onboard/create-solo", formData, {
+      await axios.post(`${process.env.REACT_APP_API}/api/v1/onboard/create-solo`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

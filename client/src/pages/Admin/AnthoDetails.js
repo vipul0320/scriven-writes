@@ -8,7 +8,7 @@ const AnthoDetails = () => {
 
   const fetchOnboardingAnthos = async () => {
     try {
-      const response = await axios.get("/api/v1/onboard/get-antho");
+      const response = await axios.get(`${process.env.REACT_APP_API}/api/v1/onboard/get-antho`);
       setOnboardingAnthos(response.data);
     } catch (error) {
       console.error("Error fetching onboarding anthos:", error);

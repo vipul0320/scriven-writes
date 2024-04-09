@@ -17,7 +17,7 @@ function OnboardingAntho() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/api/v1/onboard/create-antho", {
+      const { data } = await axios.post(`${process.env.REACT_APP_API}/api/v1/onboard/create-antho`, {
         name, email, phone, packagee,
       });
       if (data?.success) {

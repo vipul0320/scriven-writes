@@ -132,7 +132,7 @@ const HomePage = () => {
 
         <div className="button-book">
           
-          <Link to="/store" ><button>Shop Now</button></Link>
+          
           <Link to="/publish" ><button>Publish Book</button></Link>
         </div>
       </div>

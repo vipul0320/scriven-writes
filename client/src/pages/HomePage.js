@@ -207,7 +207,9 @@ const HomePage = () => {
               explore. This platform has a fantastic collection, and I've
               discovered some hidden gems here. Plus, the purchasing process
               is straightforward and secure. - Sunand Srinivas"</p></div>
-          
+          <div className="review-l2"><p>"Being an author-publisher can be challenging, but this platform
+              has made it much easier for me. From publishing my books to
+              managing sales, everything is well-organized. -Veena Kapoor "</p></div>
         </div>
       </div>
       

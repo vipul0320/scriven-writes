@@ -52,7 +52,7 @@ const CreateCategory = () => {
     e.preventDefault();
     try {
       const { data } = await axios.put(
-        `/api/v1/category/update-category/${selected._id}`,
+        `${process.env.REACT_APP_API}/api/v1/category/update-category/${selected._id}`,
         { name: updatedName }
       );
       if (data?.success) {

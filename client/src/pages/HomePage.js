@@ -122,12 +122,12 @@ const HomePage = () => {
       <div className="grid-background">
         {/* Your content goes here */}
        <div className="header-book">
-        <h1> Want to purchase your faviorate books?</h1>
+        <h1> Want to purchase your favourite books?</h1>
         <h2>OR</h2>
         <h1>Ready To Publish Your Own Book?</h1>
         </div>
         <div className="body-book">
-        <p>embark your journey with us</p>
+        <p>Embark your journey with us</p>
         </div>
 
         <div className="button-book">

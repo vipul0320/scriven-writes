@@ -1,10 +1,9 @@
 body{
-    background-color: #FFF8D6 !important;
+    background-color: #ffffff !important;
 }
 .grid-background {
-    background-color: #000;
-    background-image: linear-gradient(to right, #333 1px, transparent 1px),
-      linear-gradient(to bottom, #333 1px, transparent 1px);
+    background-color: #000000;
+    
     background-size: 20px 20px;
     height: 60vh;
     width: 100vw;
@@ -17,8 +16,10 @@ body{
 
   .header-book h1 {
     color: #f0f0f0;
-    font-size: 4.5rem;
-    font-weight: 700;
+    font-size: 3.8rem;
+    font-family: 'Trebuchet MS', sans-serif;
+
+    font-weight: 600;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -35,8 +36,9 @@ body{
 
   .header-book h2 {
     color: #f0f0f0;
-    font-size: 4.5rem;
-    font-weight: 700;
+    font-size: 3.0rem;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
     padding: 0;
     margin: 0;

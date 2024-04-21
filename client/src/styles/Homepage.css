@@ -46,13 +46,17 @@ body{
     margin-bottom: 40px;
     padding: 0 30px;
   }
+
+  /* Styles for 375x812 screen size */
+
+  
   .button-book button {
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0.8rem 1.6rem;
     margin: 0 0.5rem;
     border: 1px solid  #fff;
-    border-radius: 50%;
+    border-radius: 25px;
     cursor: pointer;
     background-color: transparent;
   color: #fff;
@@ -60,6 +64,14 @@ body{
   .button-book button:hover{
     /* background-color: transparent; */
   color: #ffb30f;
+  }
+
+  @media only screen and (max-width: 410px) and (max-height: 844px) {
+    /* Your CSS styles here */
+    .button-book button{
+        /* display: flex; */
+        font-size: 0.9rem;
+    }
   }
   
 .plans-main{
@@ -202,7 +214,6 @@ body{
     background-color: #7f03eb;
 }
 
-
 .review h3{
     
         color: rgb(255, 255, 255);
@@ -273,7 +284,22 @@ body{
 
 }
 
-
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .review {
+      height: 90vh;
+    }
+  }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .review {
+      height: 80vh;
+    }
+  }
+  @media only screen and (max-width: 410px) and (max-height: 844px) {
+    /* Your CSS styles here */
+   .review .review-r{
+    right: -32px;
+   }
+  }
 
 @media screen and (max-width: 768px) {
     .plans-main {

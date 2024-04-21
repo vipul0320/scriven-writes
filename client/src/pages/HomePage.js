@@ -202,14 +202,14 @@ const HomePage = () => {
         <div className="review-body">
           <div className="review-l1"><p>"I've been using this platform for a while now, and I must say,
               it's been an incredible experience. The process of publishing my
-              book was smooth, and the support team was very helpful. -Abhay Saxena."</p></div>
+              book was smooth, and the support team was very helpful" -Abhay Saxena</p></div>
           <div className="review-r"><p>"I'm always on the lookout for new books to
               explore. This platform has a fantastic collection, and I've
               discovered some hidden gems here. Plus, the purchasing process
-              is straightforward and secure. - Sunand Srinivas"</p></div>
+              is straightforward and secure" - Sunand Srinivas</p></div>
           <div className="review-l2"><p>"Being an author-publisher can be challenging, but this platform
               has made it much easier for me. From publishing my books to
-              managing sales, everything is well-organized. -Veena Kapoor "</p></div>
+              managing sales, everything is well-organized" -Veena Kapoor </p></div>
         </div>
       </div>
       

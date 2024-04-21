@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-section">
         <h1>Scriven Write</h1>
         <p>publish your book with us</p>
-        <p>+91 83035 69780</p>
+        <p>+91 7310545919</p>
         <Link to="mailto:scrivenwrites@gmail.com">scrivenwrites@gmail.com</Link>
       </div>
       <div className="footer-section">
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="footer-section">
         <h4>Address:</h4>
-        <p>Chowk, Shahjahanpur (UP), India</p>
+        <p>Prem Nagar, Bareilly (UP), India</p>
       </div>
       
         

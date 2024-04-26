@@ -1,6 +1,7 @@
 # Book Publishing and Selling Web Application
 
 This is a full-stack web application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It serves as a platform for publishing and selling books online.
+<img width="1440" alt="Screenshot 2024-04-23 at 4 38 59 PM" src="https://github.com/Devanshsaxena1/Scrivenwrites/assets/154001856/d87ebb39-44e7-4c22-b913-f9273d67bd9a">
 
 ## Features
 

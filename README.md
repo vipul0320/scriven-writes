@@ -45,6 +45,6 @@ For Server Side :
 For Client Side :
 "npm start" in client folder
 
-Now you can open https://scrivenwrites.netlify.app/ to see the application running</s>
+Now you can open https://localhost:3000 to see the application running</s>
 
 
